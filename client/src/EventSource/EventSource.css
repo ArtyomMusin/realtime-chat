@@ -1,0 +1,35 @@
+.EventSource {
+
+}
+
+.EventSource__Form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 1px solid rebeccapurple;
+  padding: 2rem 2rem;
+  border-radius: 0.5rem;
+  width: clamp(100px, 300px, 700px);
+}
+
+.EventSource__Input {
+  padding: 0.5rem;
+  outline-color: rebeccapurple;
+  border: 1px solid rebeccapurple;
+  border-radius: 0.2rem;
+}
+
+.EventSource__Button {
+  width: fit-content;
+  align-self: flex-end;
+  border: 1px solid rebeccapurple;
+  outline-color: rebeccapurple;
+}
+
+.EventSource__Button:focus {
+  outline-color: rebeccapurple;
+}
+
+.EventSource__Message {
+
+}
